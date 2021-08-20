@@ -1,0 +1,26 @@
+.account-list{
+&-header{
+  margin-bottom: 24px;
+}
+  .account{
+    width: 100%;
+    background-color: $white;
+    box-shadow: 0 10px 20px rgba($black , .1);
+    padding: 12px 16px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-detail{
+      margin: 0;
+      margin-right: 24px;
+      font-size: 16px;
+      font-weight: 700;
+      span{
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+  }
+}

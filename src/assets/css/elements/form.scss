@@ -1,0 +1,27 @@
+.main-form{
+  position: relative;
+  margin-bottom: 16px;
+  label{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: $gray-vdark;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  input{
+  width: 100%;
+  border: 1px solid $gray-dark;
+  border-radius: 16px;
+  padding: 8px 12px;
+  background-color: $gray-medium;
+  transition: all .4s;
+  &:hover{
+    border: 1px solid $primary;
+  }
+  &:focus{
+    border: 1px solid $primary;
+    box-shadow: 0 0 0 4px rgba($primary , .2);
+  }
+  }
+}
